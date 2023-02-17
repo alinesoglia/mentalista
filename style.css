@@ -1,0 +1,64 @@
+html{
+    position: relative;
+    height: 100vh;
+  }
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("https://2.bp.blogspot.com/-YQnlJLmpgKU/W_Ku20dakHI/AAAAAAAAH9A/iGb8NT-F78cUqe_KHdugUYborfAWPWfRwCLcBGAs/s1600/capa-materia_x-men_red010.jpg");
+    background-color:#d28abb;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+   }
+  
+  .container {
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: 0;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    text-shadow: 3px 3px #000000;
+    font-size: 50px;
+  }
+  
+  .page-subtitle {
+    color: #000000;
+    margin-top: 16px;
+    text-shadow: 1px 1px #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+  
+  input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+  }
+  
+  .resultado {
+    color: #000000;
+    text-align: center;
+    margin-top: 16px;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 50px;
+  }
+  
